@@ -1,0 +1,41 @@
+{
+	// Replace <TBD> values before publishing
+	"name": "<TBD>",
+	"main": "src/index.ts",
+	"compatibility_date": "<TBD>",
+	"observability": { "enabled": true },
+
+	// AI binding for Cloudflare AI features (AutoRAG / AI Search)
+	"bindings": [
+		{
+			"type": "ai",
+			"name": "AI",
+			"model": "gpt-4o",
+			"provider": "openai"
+		}
+	],
+
+	"functions": {
+		"ai": { "binding": "AI" }
+	},
+
+	"triggers": { "crons": ["0 0 * * *"] }
+}
+
+/* Example usage (in runtime code) - follow these parameters when calling autorag.search()
+	 This example mirrors Cloudflare docs: query (required), model, rewrite_query, max_num_results,
+	 ranking_options, stream, filters.
+
+	 Note: This block is a comment for this JSONC file. Use equivalent code inside your worker's
+	 TypeScript code (e.g., src/index.ts) and not in wrangler config at runtime.
+
+const answer = await env.AI.autorag("my-autorag").search({
+	query: "How do I train a llama to deliver coffee?",
+	model: "@cf/meta/llama-3.3-70b-instruct-fp8-fast",        // optional
+	rewrite_query: true,                                     // optional
+	max_num_results: 2,                                      // 1..50
+	ranking_options: { score_threshold: 0.3 },               // optional
+	stream: false,                                           // optional (true for streaming)
+	filters: { folder: "lyric/Full Disclosure/", min_date: 1704067200000 } // optional
+});
+*/

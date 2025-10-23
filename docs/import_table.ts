@@ -2,6 +2,8 @@ import { pgTable, text, serial, integer, real, timestamp, numeric, boolean } fro
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
+// ...existing code...
+
 // Album table - to store album details
 export const albums = pgTable("albums", {
   id: serial("id").primaryKey(),
@@ -99,3 +101,5 @@ export type Track = typeof tracks.$inferSelect;
 export type BlogPost = typeof blogPosts.$inferSelect;
 export type MerchItem = typeof merchItems.$inferSelect;
 export type Subscriber = typeof subscribers.$inferSelect;
+
+// ...existing code...

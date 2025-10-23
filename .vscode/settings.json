@@ -1,0 +1,59 @@
+{
+  "chat.mcp.gallery.enabled": true,
+  "workbench.productIconTheme": "undoDebugger",
+  "udb.miDebuggerPathOverride": "/home/dianaswan/.config/Code/User/globalStorage/undo.udb/UDB-Individual-Evaluation/udb",
+  "udb.showGettingStartedOnActivation": false,
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.mcp.serverSampling": {
+    "Global in Code: neondatabase/mcp-server-neon": {
+      "allowedModels": [
+        "copilot/auto",
+        "copilot/claude-3.5-sonnet",
+        "copilot/gemini-2.0-flash-001",
+        "copilot/gpt-4.1",
+        "copilot/gpt-4o",
+        "copilot/gpt-5-mini",
+        "copilot/o3-mini"
+      ]
+    }
+  },
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-5-mini",
+  "explorer.confirmDragAndDrop": false,
+  "git.autofetch": true,
+  "workbench.editor.enablePreviewFromCodeNavigation": true,
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "s3x.endpointUrl": "https://74b94b7ffc15701b77e53f81bea03813.r2.cloudflarestorage.com",
+  "s3x.accessKeyId": "3e9a01b00091fbc4473b1fc4d089af78",
+  "editor.defaultFormatter": "cloudflare.cloudflare-workers-bindings-extension",
+  "editor.defaultFoldingRangeProvider": "cloudflare.cloudflare-workers-bindings-extension",
+  "notebook.defaultFormatter": "cloudflare.cloudflare-workers-bindings-extension",
+  "s3x.secretAccessKey": "b279b7557c31090d6050f2bfc48f7ac0df965cf0b6cecf79cc60ef240991cad1",
+  "redhat.telemetry.enabled": true,
+  "chat.agentSessionsViewLocation": "view",
+  "chat.checkpoints.showFileChanges": true,
+  "chat.edits2.enabled": true,
+  "chat.emptyState.history.enabled": true,
+  "chat.mcp.assisted.nuget.enabled": true,
+  "chat.mcp.discovery.enabled": {
+    "claude-desktop": true,
+    "cursor-workspace": true
+  },
+  "chat.renderRelatedFiles": true,
+  "chat.setup.signInDialogVariant": "default",
+  "chat.todoListTool.writeOnly": true,
+  "chat.tools.edits.autoApprove": {
+    "**/*.{csproj,fsproj,vbproj}": true
+  },
+  "chat.tools.terminal.autoReplyToPrompts": true,
+  "chat.useNestedAgentsMdFiles": true,
+  "inlineChat.enableV2": true,
+  "inlineChat.finishOnType": true,
+  "inlineChat.notebookAgent": true,
+  "chat.tools.terminal.terminalProfile.windows": {
+  
+  }
+}

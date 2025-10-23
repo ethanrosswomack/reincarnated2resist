@@ -1,14 +1,14 @@
 track_id,title,extension,s3_url,collection_folder,album_folder,SKU,type,Description,audio_url,image_url,video_url,price,in_stock,categories,content_type
-_🦅HAWKEYETHERAPPER_TheVoiceofaGeneratio, 🦅Hawkeyetherapper Thevoiceofageneratio,md,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/_ 🦅 HAWK EYE THE RAPPER_ The Voice of a Generatio.md,,,,media,,,,,,,,lyrics
-#Hawk’sNest,#Hawk’Snest,html,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/# Hawk’s Nest.html,,,,media,,,,,,,,web
-01_will_you_listen,Will You Listen,ipynb,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/│   ├── 01_will_you_listen.ipynb,,,,media,,,,,,,,notebook
-01_will_you_listen,Will You Listen,md,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/│   ├── 01_will_you_listen.md,,,,media,,,,,,,,lyrics
-02_psyops,Psyops,ipynb,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/│   ├── 02_psyops.ipynb,,,,media,,,,,,,,notebook
-02_psyops,Psyops,md,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/│   ├── 02_psyops.md,,,,media,,,,,,,,lyrics
-03_incantations,Incantations,ipynb,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/│   ├── 03_incantations.ipynb,,,,media,,,,,,,,notebook
-03_incantations,Incantations,md,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/│   ├── 03_incantations.md,,,,media,,,,,,,,lyrics
-04_mind_kontrol,Mind Kontrol,ipynb,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/│   ├── 04_mind_kontrol.ipynb,,,,media,,,,,,,,notebook
-04_mind_kontrol,Mind Kontrol,md,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/│   ├── 04_mind_kontrol.md,,,,media,,,,,,,,lyrics
+#_🦅HAWKEYETHERAPPER_TheVoiceofaGeneratio, 🦅Hawkeyetherapper Thevoiceofageneratio,md,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/_🦅_HAWK_EYE_THE_RAPPER_The_Voice_of_a_Generatio.md,,,,media,,,,,,,,lyrics
+#Hawk’sNest,#Hawk’Snest,html,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/Hawk’s_Nest.html,,,,media,,,,,,,,web
+01_will_you_listen,Will You Listen,ipynb,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/01_will_you_listen.ipynb,,,,media,,,,,,,,notebook
+01_will_you_listen,Will You Listen,md,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/01_will_you_listen.md,,,,media,,,,,,,,lyrics
+02_psyops,Psyops,ipynb,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/02_psyops.ipynb,,,,media,,,,,,,,notebook
+02_psyops,Psyops,md,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/02_psyops.md,,,,media,,,,,,,,lyrics
+03_incantations,Incantations,ipynb,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/03_incantations.ipynb,,,,media,,,,,,,,notebook
+03_incantations,Incantations,md,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/03_incantations.md,,,,media,,,,,,,,lyrics
+04_mind_kontrol,Mind Kontrol,ipynb,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/04_mind_kontrol.ipynb,,,,media,,,,,,,,notebook
+04_mind_kontrol,Mind Kontrol,md,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/04_mind_kontrol.md,,,,media,,,,,,,,lyrics
 05_return_of_kings,Return Of Kings,ipynb,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/│   ├── 05_return_of_kings.ipynb,,,,media,,,,,,,,notebook
 05_return_of_kings,Return Of Kings,md,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/│   ├── 05_return_of_kings.md,,,,media,,,,,,,,lyrics
 06_politicians,Politicians,ipynb,https://s3.omniversalmedia.app/src/data/HAWK-ARS-00/│   ├── 06_politicians.ipynb,,,,media,,,,,,,,notebook

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HAWK-ARS-00 — Bucket Index</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; max-width: 960px; margin: 2rem auto; line-height: 1.6; color: #111 }
+    h1 { font-size: 1.8rem }
+    a { color: #0066cc }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 1rem }
+    .card { padding: 1rem; border: 1px solid #eee; border-radius: 8px }
+    pre { background: #f7f7f7; padding: 0.5rem; border-radius: 4px; overflow: auto }
+  </style>
+</head>
+<body>
+  <h1>HAWK-ARS-00 — Public Bucket Landing</h1>
+  <p>This is a generated landing page listing the core files and indexes for the HAWK-ARS-00 bucket. Replace links with the final S3-hosted URLs when deploying to the bucket root.</p>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Main Indexes</h2>
+      <ul>
+        <li><a href="https://s3.omniversalaether.app/src/data/HAWK-ARS-00/Main_Arsenal_Index.md">Main_Arsenal_Index.md</a></li>
+        <li><a href="https://s3.omniversalaether.app/src/data/HAWK-ARS-00/README.md">README.md</a></li>
+        <li><a href="https://s3.omniversalaether.app/src/data/HAWK-ARS-00/Master_Index.ipynb">Master_Index.ipynb</a></li>
+        <li><a href="https://s3.omniversalaether.app/src/data/HAWK-ARS-00/filemap/HAWK_ARS_00_FULL_FileMap_Crosslinked_FINAL.csv">Full_FileMap_Crosslinked_FINAL.csv</a></li>
+        <li><a href="https://s3.omniversalaether.app/src/data/HAWK-ARS-00/catalogs/hawk_ars_unified_catalog.csv">hawk_ars_unified_catalog.csv</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Dissection & Commentary</h2>
+      <ul>
+        <li><a href="https://s3.omniversalaether.app/src/data/HAWK-ARS-00/EverLights_Rite_Dissection/Singles_Arc.md">Singles_Arc.md</a></li>
+        <li><a href="https://s3.omniversalaether.app/src/data/HAWK-ARS-00/EverLights_Rite_Dissection_Archive/Full_Disclosure.md">Full_Disclosure.md</a></li>
+        <li><a href="https://s3.omniversalaether.app/src/data/HAWK-ARS-00/EverLights_Rite_Dissection_Interlinked/README.md">Dissection Interlinked README.md</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Notebooks (examples)</h2>
+      <ul>
+        <li><a href="https://s3.omniversalaether.app/src/data/HAWK-ARS-00/01_Full_Disclosure_2020/01_swordfish.ipynb">01_swordfish.ipynb</a></li>
+        <li><a href="https://s3.omniversalaether.app/src/data/HAWK-ARS-00/02_Behold_A_Pale_Horse_2020/01_warning_shots.ipynb">01_warning_shots.ipynb</a></li>
+        <li><a href="https://s3.omniversalaether.app/src/data/HAWK-ARS-00/03_Milabs_2022/01_soft_disclosure.ipynb">01_soft_disclosure.ipynb</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Audio examples</h2>
+      <ul>
+        <li><a href="https://s3.omniversalaether.app/src/audio/HAWK-SG-01/will-you-listen.mp3">Will You Listen (audio)</a></li>
+        <li><a href="https://s3.omniversalaether.app/src/audio/HAWK-FD-01/swordfish.mp3">Swordfish (audio)</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Utilities & Next Steps</h2>
+      <ol>
+        <li>Use `filemap/HAWK_ARS_00_FULL_FileMap_Crosslinked_FINAL.csv` as the source of truth for imports.</li>
+        <li>Clean malformed URLs (remove tree characters like `│   ├──`).</li>
+        <li>Normalize hosts to `https://s3.omniversalaether.app` and the path structure under `/src/data/HAWK-ARS-00/` and `/src/audio/`.</li>
+      </ol>
+    </div>
+  </div>
+</body>
+</html>

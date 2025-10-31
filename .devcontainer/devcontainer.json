@@ -11,7 +11,8 @@
       "extensions": [
         "ms-vscode-remote.remote-containers",
         "eamodio.gitlens",
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "lvdn.s3x-explorer"
       ]
     }
   }
